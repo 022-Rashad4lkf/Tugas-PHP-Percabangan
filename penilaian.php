@@ -9,7 +9,7 @@ $nilai_uas = 95;
 $nilai_akhir = ($nilai_tugas * 0.30) + ($nilai_uts * 0.30) + ($nilai_uas * 0.40);
 
 
-if ($nilai_akhir >= 90 ) {
+if ($nilai_akhir >= 90) {
     $predikat = "A";
 } elseif ($nilai_akhir >= 80) {
     $predikat = "B";
@@ -29,19 +29,5 @@ if ($nilai_akhir >= 75) {
 }
 
 
-echo "<h3>Hasil Penilaian Siswa</h3>";
-echo "Nama: " . $nama_siswa . "<br>";
-echo "Kelas: " . $kelas . "<br>";
 
 
-
-echo "Nilai Tugas: " . $nilai_tugas . "<br>";
-echo "Nilai UTS: " . $nilai_uts . "<br>";
-echo "Nilai UAS: " . $nilai_uas . "<br>";
-
-
-
-echo "Nilai Akhir: " . $nilai_akhir . "<br>";
-echo "Predikat: " . $predikat . "<br>";
-echo "Status: " . $status . "<br>";
-?>
