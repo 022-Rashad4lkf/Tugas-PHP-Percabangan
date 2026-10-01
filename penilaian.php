@@ -38,6 +38,11 @@ if ($nilai_akhir >= 75) {
 </head>
 <body>
     <p>Nama: <?= $nama_siswa?> </p>
+    <p>Kelas: <?= $kelas?> </p>
+    <p>Nilai Tugas: <?= $nilai_tugas?> </p>
+    <p>Nilai Uts: <?= $nilai_uts?> </p>
+    <p>Nilai Uas: <?= $nilai_uas?> </p>
+    <p>Nilai Akhir: <?= $nilai_akhir?> </p>
 </body>
 </html>
 
